@@ -34,11 +34,6 @@ enum state {
 	PAUSE
 };
 
-#define UP 0x01
-#define DOWN 0x02
-#define LEFT 0x04
-#define RIGHT 0x08
-
 #define VEL_BITS 4
 #define COLLISION_ACCELL 2
 #define SPEED 2
